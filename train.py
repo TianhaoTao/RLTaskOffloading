@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--algo", type=str, default="DRLTO", choices=["DDQNTO", "DRLTO"])
     parser.add_argument("--scenario", type=str, default="Trans", choices=["Number", "Trans"])
-    parser.add_argument("--goal", type=str, default="EE", choices=["EE", "LO"])
+    parser.add_argument("--goal", type=str, default="LO", choices=["EE", "LO"])
     parser.add_argument("--logpath", type=str, default="./log/Result")
     parser.add_argument("--dependency", type=bool, default=True)
     args = parser.parse_args()
